@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: EmailToUser
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: pulagamram123@gmail.com
+    password: gpfv xiqs ferc ofog
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql: TRACE
