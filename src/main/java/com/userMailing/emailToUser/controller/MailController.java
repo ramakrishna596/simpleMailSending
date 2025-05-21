@@ -17,7 +17,7 @@ public class MailController {
     @GetMapping("/sendEmail")
     public String sendEmail(){
         sendMailToUserService.sendEmail("pulagamram123@gmail.com","Dear customer your order is on the way","order details");
-        return "mail sent";
+        return "mail sent successfully";
     }
 
 
